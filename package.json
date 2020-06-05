@@ -25,7 +25,8 @@
     "test:lint:scss": "stylelint --config=.stylelintrc '**/*.scss'",
     "test:lint": "run-s test:lint:**",
     "test:unit": "react-scripts test --env=jsdom",
-    "test": "run-s test:**"
+    "test": "run-s test:**",
+    "stylelint": "stylelint '**/*.css'"
   },
   "devDependencies": {
     "eslint": "^7.1.0",
