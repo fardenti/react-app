@@ -1,9 +1,9 @@
 import React from "react";
-import "./home.css";
+import styles from "./home.css";
 
 const HelloComponent = () => (
-  <div className="container">
-    <h1 className="header">Hello World</h1>
+  <div>
+    <h1 className={styles.title}>Hello World</h1>
   </div>
 );
 
