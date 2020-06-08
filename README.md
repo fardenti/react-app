@@ -8,7 +8,7 @@
 
 ## stylelint
 To run
-```yarn stylelint "**/*.css"```
+```yarn test:lint:css```
 
 To fix all 
-```yarn stylelint --fix```
+```yarn test:lint:css:fix```
