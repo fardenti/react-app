@@ -1,10 +1,10 @@
 import React from "react";
-import styles from "./home.css";
+import Navigation from "../navigation/navigation.js";
 
-const HelloComponent = () => (
+const Home = () => (
   <div>
-    <h1 className={styles.title}>Hello World</h1>
+    <Navigation />
   </div>
 );
 
-export default HelloComponent;
+export default Home;

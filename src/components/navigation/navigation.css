@@ -1,0 +1,11 @@
+.navBar {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  padding: 0;
+}
+.navBar li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 2%;
+}
